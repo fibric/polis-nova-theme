@@ -5,6 +5,7 @@
     "description": "A color scheme that is easy on the eyes by day and night",
     "version": "0.1.0",
     "categories": ["themes"],
-    "repository": "",
-    "license": "MIT"
+    "repository": "https://gitlab.com/fibric/polis-nova-theme",
+    "license": "MIT",
+    "bugs": "https://gitlab.com/fibric/polis-nova-theme/-/issues"
 }
