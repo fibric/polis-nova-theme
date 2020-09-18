@@ -1,0 +1,10 @@
+{
+    "identifier": "fibric.polis",
+    "name": "Polis",
+    "organization": "fibric",
+    "description": "A color scheme that is easy on the eyes by day and night",
+    "version": "0.1.0",
+    "categories": ["themes"],
+    "repository": "",
+    "license": "MIT"
+}
