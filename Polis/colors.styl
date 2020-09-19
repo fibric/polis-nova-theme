@@ -1,0 +1,48 @@
+/*
+ * Colors
+ */
+background = hsl(231, 18%, 14%)
+
+accent = hsl(51, 18%, 14%)
+
+// Terminal
+polis_black = shade(background, 50%)
+
+polis_red = hsl(358, 100%, 68%)
+
+polis_green = hsl(76, 100%, 40%)
+
+polis_yellow = hsl(47, 99%, 50%)
+
+polis_blue = hsl(191, 76%, 45%);
+
+polis_magenta = hsl(328, 73%, 46%)
+
+polis_cyan = hsl(180, 100%, 40%)
+
+polis_white = darken(invert(background), 10%)
+
+bright_black = lighten(polis_black, 50%)
+
+bright_red = lighten(polis_red, 50%)
+
+bright_green = lighten(polis_green, 50%)
+
+bright_yellow = lighten(polis_yellow, 50%)
+
+bright_blue = lighten(polis_blue, 50%)
+
+bright_magenta = lighten(polis_magenta, 50%)
+
+bright_cyan = lighten(polis_cyan, 50%)
+
+bright_white = lighten(polis_white, 50%)
+
+// Code
+error = saturate(polis_red, 70%)
+
+warning = saturate(polis_yellow, 70%)
+
+comment = lighten(background, 50%)
+
+invisible = shade(polis_white, 60%)

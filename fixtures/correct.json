@@ -1,10 +1,11 @@
 {
-  "object": { "name": "John", "age": 30, "car": null }
+  "object": { "name": "John", "age": 30, "car": null },
   "array": ["Ford", "BMW", "Fiat"],
   "browsers": {
     "firefox": {
       "name": "Firefox",
       "pref_url": "about:config",
+      "homepage": "https://firefox.com/",
       "releases": {
         "1": {
           "release_date": "2004-11-09",

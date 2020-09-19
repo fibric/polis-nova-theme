@@ -1,0 +1,13 @@
+{
+  "name": "Polis",
+  "version": "0.1.0",
+  "repository": "git@gitlab.com:fibric/polis-nova-theme.git",
+  "author": "Denny Trebbin <denny.trebbin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+      "compile": "stylus --disable-cache ./Polis/index.styl -o ./Themes/Polis.css"
+  },
+  "devDependencies": {
+    "stylus": "^0.54.8"
+  }
+}
