@@ -364,3 +364,19 @@ terminal.bright-blue {}
 terminal.bright-magenta {}
 terminal.bright-cyan {}
 terminal.bright-white {}
+
+json.operator.colon,
+json.comma {
+    color: #ffa352;
+}
+json.string.key.double-quoted.delimiter {
+    color: #ffa352;
+}
+json.value.number,
+json.value.boolean {
+    color: #00b5d9;
+}
+json.value.null {
+    background-color: #3c7b8b;
+    color: #e6e6e6;
+}
