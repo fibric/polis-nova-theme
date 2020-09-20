@@ -4,7 +4,6 @@
   "repository": "git@gitlab.com:fibric/polis-nova-theme.git",
   "author": "Denny Trebbin <denny.trebbin@gmail.com>",
   "license": "MIT",
-  "type": "module",
   "devDependencies": {
     "stylus": "^0.54.8"
   }
