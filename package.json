@@ -5,11 +5,6 @@
   "author": "Denny Trebbin <denny.trebbin@gmail.com>",
   "license": "MIT",
   "type": "module",
-  "scripts": {
-      "compile": "stylus --disable-cache ./Polis/index.styl -o ./Themes/Polis.css",
-      "package": "node ./index.js",
-      "com-pac": "yarn compile && yarn package"
-  },
   "devDependencies": {
     "stylus": "^0.54.8"
   }

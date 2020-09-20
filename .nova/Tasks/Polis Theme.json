@@ -1,0 +1,18 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nyarn stylus .\/Polis\/index.styl -o .\/Themes\/Polis.css"
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nrm -rf .\/Polis.novaextension"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "#!\/usr\/bin\/env node\nconst { mkdir, copyFile } = require('fs')\nconst { sep, join } = require('path')\nconst { createRequire } = require('module');\nconst package_json = require(join(process.env['PWD'], 'package.json'));\nconst theme_name = `${package_json.name}.novaextension`\nconst files = [\n\t'CHANGELOG.md',\n\t'extension.json',\n\t'extension.png',\n\t'extension@2x.png',\n\t'LICENSE.md',\n\t'README.md',\n\t'Images\/extension\/polis-json.png',\n\t'Themes\/Polis.css'\n]\n\/\/ const [,,args] = process.argv\nmkdir(['.', theme_name].join(sep), { recursive: true }, (err) => {\n\tif (err) throw err;\n\tfor (const maybe_file of files) {\n\t\tconst maybe_path = maybe_file.split(sep)\n\t\tif (maybe_path.length > 1) {\n\t\t\tconst file = maybe_path.pop()\n\t\t\tconst path = ['.', theme_name, maybe_path.join(sep)].join(sep)\n\t\t\tmkdir(path, { recursive: true}, (err) => {\n\t\t\t\tif (err) throw err;\n\t\t\t})\n\t\t}\n\t\tcopyFile(['.', maybe_file].join(sep), ['.', theme_name, maybe_file].join(sep), (err) => {\n\t\t\tif (err) throw err;\n\t\t})\n\t}\n\tconsole.log(`${theme_name} has been created and is ready to test or publish`);\n});\n"
+    }
+  },
+  "identifier" : "E168CF9C-B768-4FBE-A953-693F3259C45C",
+  "openLogOnRun" : "fail"
+}

@@ -1,5 +1,6 @@
 {
+  "index.use_scm_ignored_files" : true,
   "workspace.art_style" : 0,
-  "workspace.color" : 8,
-  "workspace.name" : "nova-ibg-theme"
+  "workspace.color" : 10,
+  "workspace.name" : "polis-nova-theme"
 }

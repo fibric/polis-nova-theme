@@ -1,0 +1,10 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "#!\/bin\/sh\nif ! command -v node -v &> \/dev\/null\nthen\n\techo \"node not found! install node -> https:\/\/nodejs.org\/en\/\"\n\texit 1\nfi\n\nif ! command -v yarn -v &> \/dev\/null\nthen\n\techo \"yarn not found! install yarn -> https:\/\/classic.yarnpkg.com\/en\/docs\/install\/#mac-stable\"\n\texit 1\nfi\nyarn install\n"
+    }
+  },
+  "identifier" : "61CE3213-FDB7-444D-9273-16A19ADEED93",
+  "openLogOnRun" : "fail"
+}
