@@ -22,7 +22,7 @@ Within this project, two custom tasks are available. `Prepare Environment` and `
 
 ![Custom Task clean][custom_task_clean]
 
-To enable the theme while modifying it, you must run the `Polis Theme` custom task `Build` target. Nova reads the `Polis.css` from the 'Themes' folder.
+To enable the theme while modifying it, you must run the `Polis Theme` custom task `Build` target followed by the 'Run' target. Nova reads the `Polis.css` from the 'Themes' folder inside of the `Polis.novaextension` folder.
 
 [polis_javascript]:
 https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-javascript.png

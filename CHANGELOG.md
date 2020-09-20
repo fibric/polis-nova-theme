@@ -1,5 +1,9 @@
 # Change Log 
 
+## 09/21/20 v0.2.1
+
+- Made it easier for contributions
+
 ## 09/20/20 [v0.2.0](https://gitlab.com/fibric/polis-nova-theme/-/milestones/2)
 
 ### Built-in languages
