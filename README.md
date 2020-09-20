@@ -64,7 +64,7 @@ To enable the theme while modifying it, you must run the `Polis Theme` custom ta
 - `background-color` doesn't work vibrant themes for `meta.button.selected` and `meta.titlebar.inactive`
 - `markup-code` has higher specificity than `meta.text.selected` which makes it hard to select text snippets inside of code e.g. Markdown code blocks.
 
-[polis_color_inspiration]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis_color_inspiration.png
+[polis_color_inspiration]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-color-inspiration.png
 
 [nova_editor_editing]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/nova-editor-editing.png
 
