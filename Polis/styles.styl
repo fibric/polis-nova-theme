@@ -128,10 +128,13 @@ cdata
 
 /* Markup */
 markup.heading
-    color polis_white
+    color polis_orange
+
+markup.heading.name
+    color polis_green
 
 markup.line
-    color polis_white
+    color polis_red
 
 markup.bold
     font-weight bold
@@ -143,10 +146,15 @@ markup.strikethrough
     text-decoration line-through solid polis_white
 
 markup.list.item
-    color polis_white
+    color temp_lBlue
 
+markup.inline.code,
 markup.code
-    color polis_white
+    background-color lighten(background, 15%)
+    color bright_white
+
+markup.bracket
+    color polis_orange
 
 /* Types */
 definition.class class.name
