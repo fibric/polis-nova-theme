@@ -1,6 +1,9 @@
-# Polis v0.2.0
+# Polis v0.3.0
 
 ## Built-in languages
+
+### Markdown since v0.3.0
+![Polis Markdown][polis_markdown]
 
 ### JavaScript since v0.2.0
 ![Polis JavaScript][polis_javascript]
@@ -24,14 +27,12 @@ Within this project, two custom tasks are available. `Prepare Environment` and `
 
 To enable the theme while modifying it, you must run the `Polis Theme` custom task `Build` target followed by the 'Run' target. Nova reads the `Polis.css` from the 'Themes' folder inside of the `Polis.novaextension` folder.
 
-[polis_javascript]:
-https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-javascript.png
+[polis_markdown]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-markdown.png
 
-[polis_json]:
-https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-json.png
+[polis_javascript]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-javascript.png
 
-[custom_task_overview]:
-https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/custom-task-overview.png
+[polis_json]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-json.png
 
-[custom_task_clean]:
-https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/custom-task-clean.gif
+[custom_task_overview]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/custom-task-overview.png
+
+[custom_task_clean]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/custom-task-clean.gif

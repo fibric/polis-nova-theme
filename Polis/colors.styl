@@ -1,18 +1,18 @@
 /*
  * Colors
  */
-background = hsl(231, 18%, 14%)
+background = hsl(212.3, 22.8%, 11.2%)
 
 accent = hsl(51, 18%, 14%)
 
 // Terminal
 polis_black = shade(background, 50%)
 
-polis_red = hsl(358, 100%, 68%)
+polis_red = hsl(340, 100%, 60%)
 
-polis_green = hsl(76, 100%, 40%)
+polis_green = hsl(110, 100%, 80%)
 
-polis_yellow = hsl(47, 99%, 50%)
+polis_yellow = hsl(50, 100%, 80%)
 
 polis_blue = hsl(191, 76%, 45%);
 
@@ -38,11 +38,25 @@ bright_cyan = lighten(polis_cyan, 50%)
 
 bright_white = lighten(polis_white, 50%)
 
-// Code
+polis_orange = hsl(28.1, 100%, 66.1%)
+
+temp_white = hsl(0, 0%, 90.2%)
+temp_lBlue = hsl(189.9, 84.8%, 66.5%)
+temp_rOrange = hsl(5.1, 100%, 62.9%)
+temp_lOrange = hsl(30.4, 100%, 84.9%)
+temp_red = hsl(0, 100%, 50%)
+
+keyword = polis_orange
+function = temp_rOrange
+constant = polis_blue
+storage = temp_lOrange
+
+caret = polis_orange
+
 error = saturate(polis_red, 70%)
 
 warning = saturate(polis_yellow, 70%)
 
-comment = lighten(background, 50%)
+comment = hsl(199.3, 12%, 45.9%)
 
-invisible = shade(polis_white, 60%)
+invisible = temp_rOrange

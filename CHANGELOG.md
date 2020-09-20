@@ -1,5 +1,9 @@
 # Change Log 
 
+## 09/21/20 v0.3.0
+
+- Added Markdown support
+
 ## 09/21/20 v0.2.1
 
 - Made it easier for contributions
