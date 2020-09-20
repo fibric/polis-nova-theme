@@ -31,7 +31,7 @@ I haven't styled `Invisibles` as they are always shown when enabled rather than 
 
 Enable `Highlight: Matching brackets and tags` and `Use rainbow brackets` as well as `Instances of symbol cursor`.
 
-![Nova Editor Indentation][nova_editor_indentation]
+![Nova Editor Indentation][nova_editor_Indendation]
 
 Enable `Indentation Guides: Rainbow`.
 
