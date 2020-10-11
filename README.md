@@ -1,82 +1,42 @@
-# Polis v0.3.1
+<div align="center">
 
-The colors I choose came from the LEDS of my [Denon SC5000M Prime](https://www.denondj.com/sc5000m-prime-sc5000mprimexus) players. Extracting color values from the pictures were done using Eigenlogik's [Spectrum](http://www.eigenlogik.com/spectrum/mac) app.
+<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/logo/polis-logo-small.svg" alt="Polis logo" width="265">
 
-![Polis Color Inspiration][polis_color_inspiration]
+A color scheme that is easy on the eyes by day and night.
 
-I'm pretty happy with the colors so far but I do like Nova's rainbow colors too. At the moment Nova's rainbow colors do not clash with Polis's color palette.
+<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/polis-theme-screenshot@2x.png?inline=false" alt="Polis theme screenshot">
 
-## Built-in languages
+-----
 
-### Markdown since v0.3.0
-![Polis Markdown][polis_markdown]
+</br>
 
-### JavaScript since v0.2.0
-![Polis JavaScript][polis_javascript]
+<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/syntax/polis-colors-transparent.svg" >
 
-### JSON since v0.2.0
-![Polis JSON][polis_json]
+</br>
 
-## Recommended settings
+### The chosen colors were inspired by the glowing LEDs of Denon's SC5000M music player series.
 
-![Nova Editor Editing][nova_editor_editing]
+</br>
 
-I use the fantastic open-source monospaced font [Victor Mono](https://rubjo.github.io/victor-mono/) `16px` and `1.5` `Line Height`.
+#### Have your eye candy. And see it, too.
 
-The cursor looks okay when set as `Underline` or `Vertical Bar`. Until Nova.app supports `invert()`-CSS I do not recommend using the cursor style `Block`.
+Unlike other color schemes, the color red is not used for syntax element highlighting.</br> Instead, red is only used to represent syntax errors, invalid code, and linting errors.
 
-I haven't styled `Invisibles` as they are always shown when enabled rather than when selected.
+</br>
 
-![Nova Editor Syntax][nova_editor_syntax]
+#### Mathematically derived.
 
-Enable `Highlight: Matching brackets and tags` and `Use rainbow brackets` as well as `Instances of symbol cursor`.
+The base colors, the window colors, and the text color are the only manually selected colors and balanced using the Equiangular algorithm.</br>All other colors are mathematical derivatives of the base colors.</br>Deliberately used mathematical inaccuracies in color derivations provide a natural-looking color mixture.
 
-![Nova Editor Indentation][nova_editor_Indendation]
+</br>
 
-Enable `Indentation Guides: Rainbow`.
+#### Enjoyable Terminal.
 
-## Contribute
+This color scheme has been carefully prepared so that even the terminal provides eye-friendly colors.</br>To do so, select `Preferences -> Terminal`. In the tab `[Theme]`, select `[Theme]: Custom`. It is best to select "Polis" under `[Apply Theme]` too.
 
-Within this project, two custom tasks are available. `Prepare Environment` and `Polis Theme`.
+<br>
 
-![Custom Task overview][custom_task_overview]
+-----
 
-`Prepare Environment` has a `Build` target that you must run before contributing — executing the `Clean` target checks if node and yarn are installed and installs stylus.
-
-`Polis Theme` also consists of a `Build` target and additionally `Run` and `Clean`. `Build` triggers `stylus` to convert all `.styl` files to CSS starting from `index.styl` file.
-
-`Run` triggers a `node` script that copies all theme relevant files into `Polis.novaextension` folder. `Clean` removes the `Themes` and `Polis.novaextension` folder.
-
-![Custom Task clean][custom_task_clean]
-
-To enable the theme while modifying it, you must run the `Polis Theme` custom task `Build` target followed by the 'Run' target. Nova reads the `Polis.css` from the 'Themes' folder inside of the `Polis.novaextension` folder.
-
-## Known issues (Nova vs Polis)
-
-- Missing CSS `invert()` (Cursor style `Block` unusable with Polis)
-- No support for CSS Properties (I choose Stylus to manage colors)
-- `Type and function separator` not directly style-able
-- CSS selector order does matter despite being described otherwise `even the order does not matter` in the [docs](https://docs.nova.app/extensions/themes/#themes). I got puzzled pretty often when trying to style elements
-- Not all CSS selector shown in syntax inspector seem to have an effect. The current workflow is practically just trial-by-error.
-- Syntax coloring doesn't work inside markup code blocks
-- `text-decoration` strikethrough not supported despite being mentioned in the [docs](https://docs.nova.app/extensions/themes/#styling-syntax-highlighting)
-- `text-doceration` `underline` doesn't support `wavy` and sometimes the underline isn't even drawn in the same row.
-- `background-color` doesn't work vibrant themes for `meta.button.selected` and `meta.titlebar.inactive`
-- `markup-code` has higher specificity than `meta.text.selected` which makes it hard to select text snippets inside of code e.g. Markdown code blocks.
-
-[polis_color_inspiration]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-color-inspiration.png
-
-[nova_editor_editing]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/nova-editor-editing.png
-
-[nova_editor_syntax]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/nova-editor-syntax.png
-
-[nova_editor_Indendation]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/nova-editor-indentation.png
-
-[polis_markdown]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-markdown.png
-
-[polis_javascript]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-javascript.png
-[polis_json]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/polis-json.png
-
-[custom_task_overview]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/custom-task-overview.png
-
-[custom_task_clean]: https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/extension/custom-task-clean.gif
+<img src="https://gitlab.com/fibric/logo/-/raw/master/fibric-logo-text.svg" width="89" alt="Made with ❤️ by fibric">
+</div>
