@@ -20,19 +20,21 @@ A color scheme that is easy on the eyes by day and night.
 
 #### Spot errors at a glance
 
-Unlike other color schemes, the color red is not used for syntax element highlighting.</br> Instead, red is only used to represent syntax errors, invalid code, and linting errors.</br>*Look out! Until the final version 1.0, red is used for identifying syntax elements that are not yet stylized.</br>**Report red syntax elements!***
+Unlike other color schemes, the color red is not used for syntax element highlighting. Instead, red is only used to represent syntax errors, invalid code, and linting errors.</br>
+*Look out! Until the final version 1.0, red is used for identifying syntax elements that are not yet stylized. **Report red syntax elements!***
 
 </br>
 
 #### Mathematically derived.
 
-The base colors, the window colors, and the text color are the only manually selected colors and balanced using the Equiangular algorithm.</br>All other colors are mathematical derivatives of the base colors.</br>Deliberately used mathematical inaccuracies in color derivations provide a natural-looking color mixture.
+The base colors, the window colors, and the text color are the only manually selected colors and balanced using the Equiangular algorithm. All other colors are mathematical derivatives of the base colors. Deliberately used mathematical inaccuracies in color derivations provide a natural-looking color mixture.
 
 </br>
 
 #### Enjoyable Terminal.
 
-This color scheme has been carefully prepared so that even the terminal provides eye-friendly colors.</br>To do so, select `Preferences -> Terminal`. In the tab `[Theme]`, select `[Theme]: Custom`. It is best to select "Polis" under `[Apply Theme]` too.
+This color scheme has been carefully prepared so that even the terminal provides eye-friendly colors.</br>
+To do so, select `Preferences -> Terminal`. In the tab `[Theme]`, select `[Theme]: Custom`. It is best to select "Polis" under `[Apply Theme]` too.
 
 <br>
 
