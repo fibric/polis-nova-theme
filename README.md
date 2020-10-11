@@ -1,6 +1,6 @@
 <div align="center">
 
-<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/logo/polis-logo-small.svg" alt="Polis logo" width="265">
+<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/logo/polis-logo-small.svg" alt="Polis logo" width="265" alt="polis logo small">
 
 A color scheme that is easy on the eyes by day and night.
 
@@ -10,7 +10,7 @@ A color scheme that is easy on the eyes by day and night.
 
 </br>
 
-<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/syntax/polis-colors-transparent.svg" >
+<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/syntax/polis-colors-transparent.svg" width="512" height="212" alt="Colors used in this Nova theme">
 
 </br>
 
@@ -40,5 +40,5 @@ To do so, select `Preferences -> Terminal`. In the tab `[Theme]`, select `[Theme
 
 -----
 
-<img src="https://gitlab.com/fibric/logo/-/raw/master/fibric-logo-text.svg" width="89" alt="Made with ❤️ by fibric">
+<img src="https://gitlab.com/fibric/logo/-/raw/master/fibric-logo-text.svg" width="80" alt="Made with ❤️ by fibric">
 </div>
