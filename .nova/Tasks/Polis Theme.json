@@ -21,8 +21,8 @@
     "extension.json",
     "LICENSE.md",
     "README.md",
-    "Images\/logo\/extension.png > extension.png",
-    "Images\/logo\/extension@2x.png > extension@2x.png",
+    "Images\/extension\/extension.png > extension.png",
+    "Images\/extension\/extension@2x.png > extension@2x.png",
     "build\/Polis.css > Themes\/Polis.css"
   ],
   "identifier" : "E168CF9C-B768-4FBE-A953-693F3259C45C",
