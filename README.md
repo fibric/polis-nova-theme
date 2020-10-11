@@ -4,7 +4,7 @@
 
 A color scheme that is easy on the eyes by day and night.
 
-<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/polis-theme-screenshot@2x.png?inline=false" alt="Polis theme screenshot">
+<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/polis-theme-screenshot@2x.png?inline=true" alt="Polis theme screenshot">
 
 -----
 
