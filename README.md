@@ -18,9 +18,9 @@ A color scheme that is easy on the eyes by day and night.
 
 </br>
 
-#### Have your eye candy. And see it, too.
+#### Spot errors at a glance
 
-Unlike other color schemes, the color red is not used for syntax element highlighting.</br> Instead, red is only used to represent syntax errors, invalid code, and linting errors.
+Unlike other color schemes, the color red is not used for syntax element highlighting.</br> Instead, red is only used to represent syntax errors, invalid code, and linting errors.</br>*Look out! Until the final version 1.0, red is used for identifying syntax elements that are not yet stylized.</br>**Report red syntax elements!***
 
 </br>
 
