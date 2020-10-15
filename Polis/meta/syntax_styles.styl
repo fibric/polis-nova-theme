@@ -2,29 +2,27 @@
  * Syntax styles
  */
 
-keyword {
-    color: hsb(210, 60%, 100%);
-}
-comment {
-    color: hsb(210, 20%, 50%);
-}
-processing {
-    color: hsb(210, 20%, 50%);
-}
-declaration {
-    color: hsb(210, 20%, 50%);
-}
-bracket {
-    color: hsb(210, 20%, 52%);
-}
-operator {
-    color: hsb(210, 20%, 52%);
-}
-invalid {
-    background-color: hsb(355, 82%, 96%);
-    color: hsb(60, 3%, 97%);
-}
-link {
-    color: hsb(210, 60%, 100%);
-
-}
+keyword
+    apply_l( orange() )
+comment
+    apply_l( gray() )
+processing
+    apply_cl( orange( .1 ), yellow() )
+declaration
+    apply_l( yellow() )
+bracket
+    apply_cl(
+        bgblack( .9 ),
+        white( .9 )
+    )
+operator
+    apply_l( orange() )
+invalid
+    apply_cl(
+        red( .9 ),
+        gray()
+    )
+    text-decoration: underline solid red( 'light_20', .9 )
+link
+    apply_l( blue( 'light_20', .9 ) )
+    text-decoration: underline dashed blue( 'light_20', .9 )
