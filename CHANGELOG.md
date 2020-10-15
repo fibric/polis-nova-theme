@@ -18,3 +18,10 @@
 ## 09/15/20 v0.1.0
 
 Initial release
+
+<br>
+
+-----
+<div align="center">
+    <img src="https://gitlab.com/fibric/logo/-/raw/master/fibric-logo-text.svg" width="80" alt="Made with ❤️ by fibric">
+</div>
