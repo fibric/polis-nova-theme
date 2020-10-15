@@ -1,0 +1,107 @@
+// aliases
+t = transparentify
+i = invert
+c = complement
+s = saturate
+de = desaturate
+l = lighten
+da = darken
+
+// helper function to extract color values from $colors hash
+get_color( $key, $hash )
+    return pair[1] if pair[0] == $key for pair in $hash
+
+// helper function to turn colors dark/light or add alpha
+polis( $color, $shade = 1.0, $alpha )
+    // function called with alpha but no shade?
+    $alpha = $shade if $shade is a 'unit'
+    $c = get_color( $color, $colors )
+    // no sensible fallback possible
+    // tinkered with trying to translate 'blue' into css-blue, but...
+    // error out if color e.g.'blaueshonigkuchenpferd' is not found
+    error( join( ' ', s( '%s', $color ), 'not found in $colors' ) ) if $c is null
+    // shade color - maybe
+    $c = l( de( $c, 45% ), 90 ) if 'light_90' in $shade
+    $c = l( de( $c, 40% ), 80 ) if 'light_80' in $shade
+    $c = l( de( $c, 35% ), 70 ) if 'light_70' in $shade
+    $c = l( de( $c, 30% ), 60 ) if 'light_60' in $shade
+    $c = l( de( $c, 25% ), 50 ) if 'light_50' in $shade
+    $c = l( de( $c, 20% ), 40 ) if 'light_40' in $shade
+    $c = l( de( $c, 15% ), 30 ) if 'light_30' in $shade
+    $c = l( de( $c, 10% ), 20 ) if 'light_20' in $shade
+    $c = l( de( $c, 5% ), 10 ) if 'light_10' in $shade
+    $c = da( s( $c, 45% ), 90% ) if 'dark_90' in $shade
+    $c = da( s( $c, 40% ), 80% ) if 'dark_80' in $shade
+    $c = da( s( $c, 35% ), 70% ) if 'dark_70' in $shade
+    $c = da( s( $c, 30% ), 60% ) if 'dark_60' in $shade
+    $c = da( s( $c, 25% ), 50% ) if 'dark_50' in $shade
+    $c = da( s( $c, 20% ), 40% ) if 'dark_40' in $shade
+    $c = da( s( $c, 15% ), 30% ) if 'dark_30' in $shade
+    $c = da( s( $c, 10% ), 20% ) if 'dark_20' in $shade
+    $c = da( s( $c, 5% ), 10% ) if 'dark_10' in $shade
+    return hsla( $c, $alpha )
+
+// mixin to apply ba_C_kground co_L_or bo_R_der
+apply_clr( $background, $color, $border )
+    background $background
+    color $color
+    border $border
+
+// mixin to apply ba_C_kground co_L_or
+apply_cl( $background, $color )
+    background $background
+    color $color
+
+// mixin to apply ba_C_kground bo_R_der
+apply_cr( $background, $border )
+    background $background
+    border $border
+
+// mixin to apply co_L_or bo_R_der
+apply_lr( $color, $border )
+    color $color
+    border $border
+
+// mixin to apply ba_C_kground
+apply_c( $background )
+    background $background
+
+// mixin to apply co_L_or
+apply_l( $color )
+    color $color
+
+// mixin to apply bo_R_der
+apply_r( $border )
+    border $border
+
+// mixin to apply italic
+italic()
+    font-style italic
+
+// mixin to apply oblique
+oblique()
+    font-style oblique
+
+// mixin to apply extra light
+extra_light()
+    font-weight 100
+
+// mixin to apply extra
+light()
+    font-weight 200
+
+// mixin to apply regular
+regular()
+    font-weight 400
+
+// mixin to apply medium
+medium()
+    font-weight 500
+
+// mixin to apply semi bold
+semi_bold()
+    font-weight 600
+
+// mixin to apply bold
+bold()
+    font-weight 700

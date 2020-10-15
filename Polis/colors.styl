@@ -1,62 +1,49 @@
 /*
- * Colors
+ * Base colors
  */
-background = hsl(212.3, 22.8%, 11.2%)
 
-accent = hsl(51, 18%, 14%)
+$colors = (), // empty tuple used visual code appeal despite code smell
+    ('black' hsl( 214.3, 30.4%, 4.5% )),
+    ('gray' hsl( 193, 50%, 87% )),
+    ('white' hsl( 272.7, 33.3%, 93.5% )),
+    ('red' hsl( 3.4, 100%, 61.4% )),
+    ('yellow' hsl( 47, 97%, 73% )),
+    ('orange' hsl( 36.5, 100%, 52% )),
+    ('green' hsl( 129.1, 67.3%, 52% )),
+    ('cyan' hsl( 181.5, 100%, 56% )),
+    ('blue' hsl( 210.1, 100%, 52% )),
+    ('magenta' hsl( 279.9, 85.4%, 65.1% )),
+    ('bgblack' hsl( 212.3, 22.8%, 11.2% ))
 
-// Terminal
-polis_black = shade(background, 50%)
+black()
+    polis( 'black', arguments[0] || 1.0, arguments[1] || 1.0 )
 
-polis_red = hsl(340, 100%, 60%)
+gray()
+    polis( 'gray', arguments[0] || 1.0, arguments[1] || 1.0 )
 
-polis_green = hsl(110, 100%, 80%)
+white()
+    polis( 'white', arguments[0] || 1.0, arguments[1] || 1.0 )
 
-polis_yellow = hsl(50, 100%, 80%)
+red()
+    polis( 'red', arguments[0] || 1.0, arguments[1] || 1.0 )
 
-polis_blue = hsl(191, 76%, 45%);
+yellow()
+    polis( 'yellow', arguments[0] || 1.0, arguments[1] || 1.0 )
 
-polis_magenta = hsl(328, 73%, 46%)
+orange()
+    polis( 'orange', arguments[0] || 1.0, arguments[1] || 1.0 )
 
-polis_cyan = hsl(180, 100%, 40%)
+green()
+    polis( 'green', arguments[0] || 1.0, arguments[1] || 1.0 )
 
-polis_white = darken(invert(background), 10%)
+cyan()
+    polis( 'cyan', arguments[0] || 1.0, arguments[1] || 1.0 )
 
-bright_black = lighten(polis_black, 50%)
+blue()
+    polis( 'blue', arguments[0] || 1.0, arguments[1] || 1.0 )
 
-bright_red = lighten(polis_red, 50%)
+magenta()
+    polis( 'magenta', arguments[0] || 1.0, arguments[1] || 1.0 )
 
-bright_green = lighten(polis_green, 50%)
-
-bright_yellow = lighten(polis_yellow, 50%)
-
-bright_blue = lighten(polis_blue, 50%)
-
-bright_magenta = lighten(polis_magenta, 50%)
-
-bright_cyan = lighten(polis_cyan, 50%)
-
-bright_white = lighten(polis_white, 50%)
-
-polis_orange = hsl(28.1, 100%, 66.1%)
-
-temp_white = hsl(0, 0%, 90.2%)
-temp_lBlue = hsl(189.9, 84.8%, 66.5%)
-temp_rOrange = hsl(5.1, 100%, 62.9%)
-temp_lOrange = hsl(30.4, 100%, 84.9%)
-temp_red = hsl(0, 100%, 50%)
-
-keyword = polis_orange
-function = temp_rOrange
-constant = polis_blue
-storage = temp_lOrange
-
-caret = polis_orange
-
-error = saturate(polis_red, 70%)
-
-warning = saturate(polis_yellow, 70%)
-
-comment = hsl(199.3, 12%, 45.9%)
-
-invisible = temp_rOrange
+bgblack()
+    polis( 'bgblack', arguments[0] || 1.0, arguments[1] || 1.0 )

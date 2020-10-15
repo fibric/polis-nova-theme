@@ -1,0 +1,52 @@
+/*
+ * Document styles
+ */
+meta.document {
+    apply_cl(
+        bgblack(),
+        gray()
+    )
+}
+
+meta.document.button
+    apply_clr(
+        linear-gradient(
+            bgblack( 'light_10' ),
+            bgblack()
+        ),
+        gray(),
+        linear-gradient(
+            bgblack(),
+            bgblack( 'light_10' )
+        )
+    )
+meta.document.button.disabled
+    apply_clr(
+        linear-gradient(
+            bgblack(),
+            bgblack( 'dark_10' )
+        ),
+        gray( 'dark_70' ),
+        linear-gradient(
+            bgblack( 'light_10' ),
+            bgblack()
+        )
+    )
+meta.document.button.highlighted // click-n-hold
+    apply_clr(
+        linear-gradient(
+            bgblack( 'dark_10' ),
+            bgblack()
+        ),
+        gray( 'light_10' ),
+        linear-gradient(
+            orange( 'light_10', .9 ),
+            orange( .9 )
+        )
+    )
+
+meta.document.textfield
+    apply_cr(
+        bgblack( 'dark_20' ),
+        bgblack( 'light_10', .8  )
+    )

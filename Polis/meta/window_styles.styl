@@ -1,0 +1,96 @@
+/*
+ * Window styles
+ */
+meta.window
+    apply_cr( bgblack(), bgblack(  'light_10', .5 ) )
+
+meta.titlebar
+    apply_clr(
+        linear-gradient(
+            bgblack( 'dark_20' ),
+            bgblack()
+        ),
+        magenta( 'light_10' ),
+        bgblack( 'light_10', .8  )
+    )
+    text-shadow 0px 0px 2px i( c( magenta( 'dark_10', .8 ) ) )
+meta.titlebar.inactive
+    apply_clr(
+        linear-gradient(
+            bgblack( 'light_10' ),
+            bgblack()
+        ),
+        magenta( 'dark_10', .7 ),
+        bgblack( 'dark_10', .8  )
+    )
+    text-shadow 0px 0px 4px i( c( magenta( 'light_10', .8 ) ) )
+
+meta.button
+    apply_clr(
+        linear-gradient(
+            bgblack( 'light_10' ),
+            bgblack()
+        ),
+        gray(),
+        linear-gradient(
+            bgblack(),
+            bgblack( 'light_10' )
+        )
+    )
+meta.button.highlighted // click-n-hold
+    apply_clr(
+        linear-gradient(
+            bgblack( 'dark_10' ),
+            bgblack()
+        ),
+        gray( 'light_10' ),
+        linear-gradient(
+            orange( 'light_10', .9 ),
+            orange( .9 )
+        )
+    )
+meta.button.selected
+    apply_clr(
+        linear-gradient(
+            yellow( 'dark_70' ),
+            yellow( 'dark_60' )
+        ),
+        gray(),
+        linear-gradient(
+            orange( 'light_10', .9 ),
+            orange( .9 )
+        )
+    )
+meta.button.highlighted.selected
+    apply_clr(
+        linear-gradient(
+            yellow( 'dark_60' ),
+            yellow( 'dark_50' )
+        ),
+        gray( 'light_10' ),
+        linear-gradient(
+            yellow( 'dark_20' ),
+            yellow( 'dark_10' )
+        ),
+    )
+meta.button.disabled
+    apply_clr(
+        linear-gradient(
+            bgblack(),
+            bgblack( 'dark_10' )
+        ),
+        gray( 'dark_70' ),
+        linear-gradient(
+            bgblack( 'light_10' ),
+            bgblack()
+        )
+    )
+
+meta.textfield
+    apply_cr(
+        bgblack( 'dark_20' ),
+        bgblack( 'light_10', .8  )
+    )
+
+meta.accent
+    apply_l( yellow( 'dark_10' ) )
