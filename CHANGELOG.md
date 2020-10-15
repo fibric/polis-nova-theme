@@ -1,5 +1,19 @@
 # Change Log 
 
+## 10/16/20 v0.4.0
+
+### Meta
+
+- Reworked entire color organization
+- rewrote README.md
+- rewrote CHANGELOG.md
+- Refined Polis logo
+- Refined Polis colors
+
+### Syntax
+
+- Reworked JavaScript specific coloring
+
 ## 09/21/20 v0.3.0
 
 - Added Markdown support
