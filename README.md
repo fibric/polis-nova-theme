@@ -1,16 +1,16 @@
 <div align="center">
 
-<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/logo/polis-logo-small.svg" alt="Polis logo" width="265" alt="polis logo small">
+<img src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/logo/polis-logo-small.svg" alt="Polis logo" width="265" alt="polis logo small">
 
 A color scheme that is easy on the eyes by day and night.
 
-<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/polis-theme-screenshot@2x.png?inline=true" alt="Polis theme screenshot">
+<img src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/polis-theme-screenshot@2x.png?inline=true" alt="Polis theme screenshot">
 
 -----
 
 </br>
 
-<img align="center" src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/syntax/polis-colors-transparent.svg" width="512" height="212" alt="Colors used in this Nova theme">
+<img src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/syntax/polis-colors-transparent.svg" width="512" height="212" alt="Colors used in this Nova theme">
 
 </br>
 
