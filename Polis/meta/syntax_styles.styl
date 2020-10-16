@@ -3,26 +3,33 @@
  */
 
 keyword
-    apply_l( orange() )
+    apply_l( orange( 'light_10', .9 ) )
+    italic()
 comment
-    apply_l( gray() )
+    apply_l( gray(), .9 )
+    italic()
 processing
-    apply_cl( orange( .1 ), yellow() )
+    apply_l( green( 'light_10', .9 ) )
 declaration
-    apply_l( yellow() )
+    apply_l( yellow( 'light_10', .9) )
 bracket
     apply_cl(
         bgblack( .9 ),
         white( .9 )
     )
-operator
-    apply_l( orange() )
+operator, colon, semicolon, separator
+    apply_l( orange( 'dark_10', .9) )
 invalid
     apply_cl(
         red( .9 ),
         gray()
     )
-    text-decoration: underline solid red( 'light_20', .9 )
-link
+    td_us( red( 'light_20', .9 ) )
+link, filepath
     apply_l( blue( 'light_20', .9 ) )
-    text-decoration: underline dashed blue( 'light_20', .9 )
+    td_ud( blue( 'light_20', .9 ) )
+
+single-quoted, double-quoted, backtick-quoted
+    apply_l( yellow( 'dark_10', .9 ) )
+    &.delimiter
+        apply_l( orange( 'dark_10', .9 ) )
