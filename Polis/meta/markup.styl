@@ -1,24 +1,31 @@
 /* Markup */
-markup.heading {
-    color: hsb(30, 50%, 80%);
-}
-markup.line {
-    color: hsb(60, 50%, 75%);
-}
-markup.bold {
-    color: hsb(196, 60%, 76%);
-    font-weight: bold;
-}
-markup.italic {
-    color: hsb(94, 40%, 80%);
-    font-style: italic;
-}
-markup.strikethrough {
-    color: hsb(0, 60%, 100%);
-}
-markup.list.item {
-    color: hsb(30, 50%, 80%);
-}
-markup.code {
-    background-color: rgba(128, 128, 128, 0.2);
-}
+markup
+    &.heading
+        apply_l( orange( 'light_20', .9 ) )
+        &.name
+            apply_l( green( 'light_20', .9 ) )
+    &.line
+        apply_l( orange( 'light_20', .9 ) )
+
+    &.bold
+        apply_l( magenta( 'dark_10', .9 ) )
+        bold()
+    &.italic
+        apply_l( magenta( 'dark_20', .9 ) )
+        italic()
+    &.strikethrough
+        apply_l( magenta( 'dark_30', .9 ) )
+    &.list
+        &.item
+            apply_l( orange( 'light_20', .9 ) )
+    &.inline
+        &.code
+            apply_cl( blue( 'light_20', .1 ), blue( 'light_20', .9 ) )
+    &.block
+        &.code
+            apply_cl( blue( 'light_20', .1 ), blue( 'light_20', .9 ) )
+        &.quote
+            apply_l( cyan( 'dark_20', .9 ) )
+    &.link, &.link-inline
+        aplpy_l( cyan( 'light_20', .9 ) )
+        text-decoration: none
