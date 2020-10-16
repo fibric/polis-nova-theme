@@ -1,21 +1,31 @@
 /* Identifiers */
-identifier.type {
-    color: hsb(258, 40%, 87%);
-}
-identifier.constant {
-}
-identifier.global, identifier.variable {
-    color: hsb(268, 34%, 100%);
-}
-identifier.property,
-identifier.decorator,
-identifier.function,
-identifier.method {
-    color: hsb(166, 40%, 78%);
-}
-identifier.key {
-    color: hsb(210, 60%, 100%);
-}
-identifier.argument {
-    color: hsb(268, 34%, 100%);
-}
+identifier
+    &.type
+        apply_l( yellow( 'light_10' )  )
+        italic()
+    &.constant
+        apply_l( green( 'dark_10', .9 ) )
+    &.global // TODO
+        apply_cl(
+            red(),
+            white()
+        )
+    &.variable
+        apply_l( white(), .9 )
+    &.argument
+        apply_l( cyan( 'light_10', .9 ) )
+        &.name
+            italic()
+    &.property
+        apply_l( blue( 'light_10', .9 ) )
+    &.decorator, &.function, &.method
+        apply_l( magenta( 'light_10', .9 ) )
+    &.method.name, &.function.name
+        italic()
+    &.key // TODO
+        apply_cl(
+            red(),
+            white()
+        )
+    &.class
+        apply_l( green( 'light_10', .9 ) )
