@@ -1,28 +1,24 @@
 /* Strings */
 string
-    apply_l( yellow( 'light_10', .9 ) )
+    apply_l( yellow() )
     &.key
-        apply_l( green( 'dark_10', .9 ) )
+        apply_l( green() )
         &.single-quoted,
         &.double-quoted,
         &.backtick-quoted
-            apply_l( yellow( 'dark_10', .9 ) )
+            apply_l( orange() )
             &.delimiter
-                apply_l( orange( 'dark_10', .9 ) )
-
+                apply_l( orange() )
+    &.triple-quoted
+        apply_l( orange() )
+        &.delimiter
+            apply_l( orange() )
 string-template
-    apply_l( orange( 'light_10', .9 ) )
-    &.value // TODO
-        apply_cl(
-            red,
-            white()
-        )
+    &.value
+        debug()
 regex
-    apply_l( yellow( 'dark_10', .9 ) )
+    apply_l( yellow() )
     &.escaped
-        apply_l( orange( 'dark_10', .9 ) )
-cdata // TODO
-    apply_cl(
-        red,
-        white()
-    )
+        apply_l( orange() )
+cdata
+    debug()

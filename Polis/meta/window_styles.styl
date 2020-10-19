@@ -1,96 +1,98 @@
 /*
  * Window styles
  */
-meta.window
-    apply_cr( bgblack(), bgblack(  'light_10', .5 ) )
+meta
+    &.window
+        apply_cr( bgblack(), bgblack( 'light_20', .2 ) )
 
-meta.titlebar
-    apply_clr(
-        linear-gradient(
-            bgblack( 'dark_20' ),
-            bgblack()
-        ),
-        magenta( 'light_10' ),
-        bgblack( 'light_10', .8  )
-    )
-    ts( 0px 0px 2px magenta( 'light_20', .6 ) )
-meta.titlebar.inactive
-    apply_clr(
-        linear-gradient(
-            bgblack( 'light_10' ),
-            bgblack()
-        ),
-        magenta( 'light_20', .6 ),
-        bgblack( 'dark_10', .8  )
-    )
-    ts( 0px 0px 2px magenta( 'dark_10', .7 ) )
+    &.titlebar
+        apply_clr(
+            linear-gradient( bgblack(), bgblack( 'dark_20' ), bgblack() ),
+            orange(),
+            bgblack( 'light_20', .2 )
+        )
+        &.inactive
+            apply_cr(
+                linear-gradient( bgblack(), bgblack( 'light_10' ), bgblack() ),
+                bgblack()
+            )
 
-meta.button
-    apply_clr(
-        linear-gradient(
-            bgblack( 'light_10' ),
-            bgblack()
-        ),
-        gray(),
-        linear-gradient(
-            bgblack(),
+    &.button
+        apply_clr(
+            linear-gradient(
+                bgblack( 'light_10' ),
+                bgblack(),
+                bgblack()
+            ),
+            yellow(),
+            linear-gradient(
+                bgblack(),
+                bgblack( 'light_10' ),
+                bgblack( 'light_10' )
+            )
+        )
+        &.highlighted // click-n-hold
+            apply_clr(
+                linear-gradient(
+                    bgblack(),
+                    bgblack(),
+                    bgblack( 'light_20' )
+                ),
+                magenta( 'light_10' ),
+                linear-gradient(
+                    bgblack( 'light_20' ),
+                    bgblack( 'light_20' ),
+                    bgblack()
+                )
+            )
+        &.selected
+            apply_clr(
+                linear-gradient(
+                    bgblack(),
+                    bgblack(),
+                    bgblack( 'light_10' )
+                ),
+                magenta(),
+                linear-gradient(
+                    bgblack( 'light_10' ),
+                    bgblack( 'light_10' ),
+                    bgblack()
+                )
+            )
+        &.highlighted.selected
+            apply_clr(
+                linear-gradient(
+                    bgblack(),
+                    bgblack(),
+                    bgblack( 'light_20' )
+                ),
+                magenta( 'light_10' ),
+                linear-gradient(
+                    bgblack( 'light_20' ),
+                    bgblack( 'light_20' ),
+                    bgblack()
+                ),
+            )
+        &.disabled
+            apply_clr(
+                linear-gradient(
+                    bgblack( 'dark_20' ),
+                    bgblack(),
+                    bgblack()
+                ),
+                yellow( 'dark_60' ),
+                linear-gradient(
+                    bgblack(),
+                    bgblack( 'dark_20' ),
+                    bgblack( 'dark_20' )
+                )
+            )
+
+    &.textfield
+        apply_cr(
+            bgblack( 'dark_10' ),
             bgblack( 'light_10' )
         )
-    )
-meta.button.highlighted // click-n-hold
-    apply_clr(
-        linear-gradient(
-            bgblack( 'dark_10' ),
-            bgblack()
-        ),
-        gray( 'light_10' ),
-        linear-gradient(
-            orange( 'light_10', .9 ),
-            orange( .9 )
-        )
-    )
-meta.button.selected
-    apply_clr(
-        linear-gradient(
-            yellow( 'dark_70' ),
-            yellow( 'dark_60' )
-        ),
-        gray(),
-        linear-gradient(
-            orange( 'light_10', .9 ),
-            orange( .9 )
-        )
-    )
-meta.button.highlighted.selected
-    apply_clr(
-        linear-gradient(
-            yellow( 'dark_60' ),
-            yellow( 'dark_50' )
-        ),
-        gray( 'light_10' ),
-        linear-gradient(
-            yellow( 'dark_20' ),
-            yellow( 'dark_10' )
-        ),
-    )
-meta.button.disabled
-    apply_clr(
-        linear-gradient(
-            bgblack(),
-            bgblack( 'dark_10' )
-        ),
-        gray( 'dark_70' ),
-        linear-gradient(
-            bgblack( 'light_10' ),
-            bgblack()
-        )
-    )
 
-meta.textfield
-    apply_cr(
-        bgblack( 'dark_20' ),
-        bgblack( 'light_10', .8  )
-    )
-
-meta.accent
-    apply_l( yellow( 'dark_10' ) )
+    &.accent
+        apply_l( orange() )

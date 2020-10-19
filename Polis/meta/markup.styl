@@ -1,31 +1,30 @@
 /* Markup */
 markup
     &.heading
-        apply_l( orange( 'light_20', .9 ) )
+        apply_l( orange( 'light_10' ) )
         &.name
-            apply_l( green( 'light_20', .9 ) )
+            apply_l( green() )
     &.line
-        apply_l( orange( 'light_20', .9 ) )
+        apply_l( orange() )
 
     &.bold
-        apply_l( magenta( 'dark_10', .9 ) )
+        apply_l( magenta() )
         bold()
     &.italic
-        apply_l( magenta( 'dark_20', .9 ) )
+        apply_l( magenta() )
         italic()
     &.strikethrough
-        apply_l( magenta( 'dark_30', .9 ) )
+        apply_l( magenta() )
     &.list
         &.item
-            apply_l( orange( 'light_20', .9 ) )
+            apply_l( orange() )
     &.inline
         &.code
-            apply_cl( blue( 'light_20', .1 ), blue( 'light_20', .9 ) )
+            apply_cl( bgblack( 'light_10' ), gray( 'light_60' ) )
     &.block
         &.code
-            apply_cl( blue( 'light_20', .1 ), blue( 'light_20', .9 ) )
+            apply_cl( bgblack( 'light_10' ), gray( 'light_60' ) )
         &.quote
-            apply_l( cyan( 'dark_20', .9 ) )
+            apply_l( cyan() )
     &.link, &.link-inline
-        aplpy_l( cyan( 'light_20', .9 ) )
-        text-decoration: none
+        td_ud( blue( 'light_10' ) )

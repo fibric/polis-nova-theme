@@ -1,35 +1,43 @@
 /* Styles */
-style.at {
-    color: hsb(25, 75%, 100%);
-    font-weight: bold;
-}
-style.selector.element {
-    font-weight: bold;
-}
-style.selector.identifier.id {
-    color: hsb(166, 40%, 78%);
-}
-style.selector.identifier.class {
-    color: hsb(258, 40%, 87%);
-}
-style.selector.pseudoclass {
-    color: hsb(258, 40%, 87%);
-}
-style.selector.pseudoelement {
-    color: hsb(166, 40%, 78%);
-}
-style.attribute.name {
-    color: hsb(148, 35%, 70%);
-}
-style.value.number {
-    color: hsb(249, 45%, 96%);
-}
-style.value.color.hex {
-    color: hsb(249, 45%, 96%);
-}
-style.value.keyword {
-    color: hsb(210, 60%, 100%);
-}
-style.value.color.named {
-    color: hsb(210, 60%, 100%);
-}
+style
+    &.at
+        apply_l( orange() )
+        semi_bold()
+    &.selector
+        &.element
+            apply_l( orange( 'light_10' ) )
+            semi_bold()
+        &.identifier.id
+            debug()
+        &.identifier.class
+            apply_l( green() )
+        &.pseudoclass
+            apply_l( white() )
+        &.pseudoelement
+            apply_l( white() )
+    &.attribute
+        apply_l( orange() )
+        &.value
+            apply_l( yellow( 'light_20' ) )
+        &.name
+            apply_l( yellow( 'light_20' ) )
+            italic()
+        &.custom
+            apply_l( white() )
+    &.value
+        &.number
+            apply_l( cyan() )
+            &.unit
+                apply_l( orange() )
+        &.color
+            &.rgb,
+            &.hex,
+            &.named
+                apply_l( cyan() )
+        &.keyword
+            apply_l( cyan() )
+            fs( none )
+    &.url-value
+        apply_l( yellow( 'light_20' ) )
+    &.media-type
+        apply_l( cyan() )

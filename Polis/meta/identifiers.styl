@@ -1,28 +1,29 @@
 /* Identifiers */
 identifier
     &.type
-        apply_l( yellow( 'light_10' )  )
+        apply_l( yellow()  )
         italic()
     &.constant
-        apply_l( green( 'dark_10', .9 ) )
-    &.global // TODO
-        apply_cl(
-            red(),
-            white()
-        )
+        apply_l( green() )
+    &.global
+        debug()
     &.variable
         apply_l( white(), .9 )
     &.argument
-        apply_l( cyan( 'light_10', .9 ) )
+        apply_l( cyan() )
         &.name
             italic()
     &.property
-        apply_l( blue( 'light_10', .9 ) )
-    &.decorator, &.function, &.method
-        apply_l( magenta( 'light_10', .9 ) )
-    &.method.name, &.function.name
-        italic()
+        apply_l( blue() )
+    &.decorator, &.function
+        apply_l( magenta( 'dark_10' ) )
+    &.method
+        apply_l( magenta( 'light_10' ) )
     &.key
-        apply_l( green( 'light_20', .9) )
+        apply_l( green() )
     &.class
-        apply_l( green( 'light_10', .9 ) )
+        apply_l( green() )
+    &.superclass
+        apply_l( cyan() )
+    &.name
+        apply_l( magenta( 'light_10' ) )
