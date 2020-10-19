@@ -90,13 +90,17 @@ td_ud()
 ts()
     text-shadow arguments
 
+// mixin to apply font style
+fs()
+    font-style arguments
+
 // mixin to apply italic
 italic()
-    font-style italic
+    fs( italic )
 
 // mixin to apply oblique
 oblique()
-    font-style oblique
+    fs( oblique )
 
 // mixin to apply extra light
 extra_light()
@@ -121,3 +125,11 @@ semi_bold()
 // mixin to apply bold
 bold()
     font-weight 700
+
+// mixing to apply debug colors
+debug()
+    apply_clr(
+        red(),
+        white(),
+        black()
+    )
