@@ -8,7 +8,7 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 
 -----
 
-## 10/16/20 v0.4.0
+## 10/20/20 [v0.4.0](https://gitlab.com/fibric/polis-nova-theme/-/milestones/3)
 
 ### Meta
 
@@ -21,9 +21,9 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 
 ### Syntax
 
-- Reworked JavaScript specific coloring
 - BREAKING: [-] Removed Markdown specific coloring
 - BREAKING: [-] Removed JSON specific coloring
+- BREAKING: [-] Removed Elixir specific coloring
 
 ## v0.3.0
 
