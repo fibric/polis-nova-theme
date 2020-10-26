@@ -1,4 +1,9 @@
 /* Strings */
+single-quoted, double-quoted, backtick-quoted
+    apply_l( orange( 'light_20' ) )
+    &.delimiter
+        apply_l( orange() )
+
 string
     apply_l( yellow( 'light_20' ) )
     &.key
@@ -6,16 +11,15 @@ string
         &.single-quoted,
         &.double-quoted,
         &.backtick-quoted
-            apply_l( orange( 'light_10') )
+            apply_l( orange( 'light_20') )
             &.delimiter
                 apply_l( orange() )
     &.triple-quoted
-        apply_l( orange( 'light_10' ) )
+        apply_l( orange( 'light_20' ) )
         &.delimiter
             apply_l( orange() )
-string-template
-    &.value
-        debug()
+    &.tempplate-value
+        apply_l( yellow( 'light_20' ) )
 regex
     apply_l( yellow( 'light_10' ) )
     &.escaped
