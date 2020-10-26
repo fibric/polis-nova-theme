@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/logo/polis-logo-small.svg" alt="Polis logo" width="265" alt="polis logo small">
+<img src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/logo/polis-logo-small.svg" width="265" alt="Small Polis logo">
 
 Carefully crafted adjustments to enhance the color scheme for daily and nightly use.
 
@@ -8,7 +8,36 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 
 -----
 
-## 10/20/20 [v0.4.0](https://gitlab.com/fibric/polis-nova-theme/-/milestones/3)
+## 10/26/20 v0.4.2
+
+Polis includes a color scheme for the terminal too.
+
+<img src="https://gitlab.com/fibric/polis-nova-theme/-/raw/main/Images/changelog/apply_terminal_colors.gif" alt="Apply Terminal colors">
+
+### Terminal
+
+- Use bright colors
+- Make colors less pop
+    - Red
+    - Green
+    - Yellow
+    - Blue
+    - Magenta
+    - Cyan
+
+## v0.4.1
+
+### Syntax
+
+- Make colors less pop
+    - Identifiers
+    - Markup
+    - Strings
+    - Styles
+    - Tags
+    - Types
+
+## [v0.4.0](https://gitlab.com/fibric/polis-nova-theme/-/milestones/3)
 
 ### Meta
 
