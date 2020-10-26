@@ -8,7 +8,16 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 
 -----
 
-## 10/26/20 v0.4.3
+## 10/26/20 v0.4.4
+
+### Syntax
+
++ Added YAML
++ Added Lua
++ Added Perl
++ Added INI
+
+## v0.4.3
 
 ### Syntax
 
