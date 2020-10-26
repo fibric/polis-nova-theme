@@ -1,12 +1,12 @@
 /* Strings */
 string
-    apply_l( yellow() )
+    apply_l( yellow( 'light_20' ) )
     &.key
-        apply_l( green() )
+        apply_l( green( 'light_10' ) )
         &.single-quoted,
         &.double-quoted,
         &.backtick-quoted
-            apply_l( orange() )
+            apply_l( orange( 'light_10') )
             &.delimiter
                 apply_l( orange() )
     &.triple-quoted
@@ -17,7 +17,7 @@ string-template
     &.value
         debug()
 regex
-    apply_l( yellow() )
+    apply_l( yellow( 'light_10' ) )
     &.escaped
         apply_l( orange() )
 cdata

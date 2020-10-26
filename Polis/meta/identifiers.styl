@@ -4,7 +4,7 @@ identifier
         apply_l( yellow()  )
         italic()
     &.constant
-        apply_l( green() )
+        apply_l( green( 'light_10' ) )
     &.global
         debug()
     &.variable
@@ -14,15 +14,15 @@ identifier
         &.name
             italic()
     &.property
-        apply_l( blue() )
+        apply_l( blue( 'light_10' ) )
     &.decorator, &.function
-        apply_l( magenta( 'dark_10' ) )
-    &.method
         apply_l( magenta( 'light_10' ) )
+    &.method
+        apply_l( magenta( 'light_20' ) )
     &.key
-        apply_l( green() )
+        apply_l( green( 'light_10' ) )
     &.class
-        apply_l( green() )
+        apply_l( green( 'light_10' ) )
     &.superclass
         apply_l( cyan() )
     &.name
