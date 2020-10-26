@@ -8,7 +8,24 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 
 -----
 
-## 10/26/20 v0.4.2
+## 10/26/20 v0.4.3
+
+### Syntax
+
+* Make colors less pop
+    * Identifiers
+    * Markup
+    * Strings
+    * Styles
+    * Tags
+    * Types
+
++ Added Elixir support
+    + [ElixirLS](nova://extension/?id=brandc.novaelixirls&name=ElixirLS)
+    + [Elixir](nova://extension/?id=rustypatchedsoftware.Elixir&name=Elixir)
++ Added Shell Script support
+
+## v0.4.2
 
 Polis includes a color scheme for the terminal too.
 
@@ -16,37 +33,43 @@ Polis includes a color scheme for the terminal too.
 
 ### Terminal
 
-- Use bright colors
-- Make colors less pop
-    - Red
-    - Green
-    - Yellow
-    - Blue
-    - Magenta
-    - Cyan
+* Use bright colors
+    * Bright red
+    * Bright green
+    * Bright yellow
+    * Bright blue
+    * Bright magenta
+    * Bright cyan
+* Make colors less pop
+    * Red
+    * Green
+    * Yellow
+    * Blue
+    * Magenta
+    * Cyan
 
 ## v0.4.1
 
 ### Syntax
 
-- Make colors less pop
-    - Identifiers
-    - Markup
-    - Strings
-    - Styles
-    - Tags
-    - Types
+* Make colors less pop
+    * Identifiers
+    * Markup
+    * Strings
+    * Styles
+    * Tags
+    * Types
 
 ## [v0.4.0](https://gitlab.com/fibric/polis-nova-theme/-/milestones/3)
 
 ### Meta
 
-- BREAKING: Reworked entire color organization code
-- Redesigned README.md
-- Redesigned CHANGELOG.md
-- Refined Polis logo
-- Refined Polis colors
-- Refined Window and Editor colors
+* BREAKING: [*] Reworked entire color organization code
+* Redesigned README.md
+* Redesigned CHANGELOG.md
+* Refined Polis logo
+* Refined Polis colors
+* Refined Window and Editor colors
 
 ### Syntax
 
@@ -56,18 +79,18 @@ Polis includes a color scheme for the terminal too.
 
 ## v0.3.0
 
-- Added Markdown support
++ Added Markdown support
 
 ## v0.2.1
 
-- Made it easier for contributions
++ Made it easier for contributions
 
 ## [v0.2.0](https://gitlab.com/fibric/polis-nova-theme/-/milestones/2)
 
 ### Built-in languages
 
-- Added JSON support
-- Added JavaScript support
++ Added JSON support
++ Added JavaScript support
 
 ## v0.1.0
 
