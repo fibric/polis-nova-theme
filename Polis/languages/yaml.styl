@@ -1,0 +1,14 @@
+/* YAML */
+yaml
+    &.key
+        apply_l( orange( 'light_10') )
+    &.value.symbol
+        apply_l( green( 'light_20' ) )
+    &.identifier
+        &.entity
+            &.anchor
+                apply_l( green( 'light_20' ) )
+            &.reference
+                apply_l( orange( 'light_30' ) )
+    &.typecast
+        apply_l( orange() )
