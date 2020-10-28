@@ -8,7 +8,16 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 
 -----
 
-## 10/26/20 v0.4.4
+## 10/28/20 v0.4.5
+
+### Syntax
+
++ Added Less
++ Added SCSS
+* Unified blue for URL, File path, and Link
+* Unified orange for Comma, Operator, and Separator
+
+## v0.4.4
 
 ### Syntax
 
