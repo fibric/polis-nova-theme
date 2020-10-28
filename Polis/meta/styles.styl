@@ -4,6 +4,7 @@ style
         apply_l( orange() )
         semi_bold()
     &.selector
+            apply_l( orange( 'light_30' ) )
         &.element
             apply_l( orange( 'light_20' ) )
             semi_bold()
@@ -25,6 +26,10 @@ style
         &.custom
             apply_l( white() )
     &.value
+        &.function
+            apply_l( orange( 'light_10' ) )
+        &.identifier
+            apply_l( magenta( 'light_10' ) )
         &.number
             apply_l( cyan() )
             &.unit
