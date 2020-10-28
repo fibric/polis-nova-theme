@@ -1,23 +1,22 @@
 /* Styles */
 style
+    apply_l( orange() )
     &.at
         apply_l( orange() )
         semi_bold()
     &.selector
-            apply_l( orange( 'light_30' ) )
+            apply_l( orange() )
         &.element
             apply_l( orange( 'light_20' ) )
             semi_bold()
-        &.identifier.id
-            debug()
-        &.identifier.class
+        &.identifier
             apply_l( green( 'light_10' ) )
         &.pseudoclass
             apply_l( white() )
         &.pseudoelement
             apply_l( white() )
     &.attribute
-        apply_l( orange( 'light_10' ) )
+        apply_l( orange() )
         &.value
             apply_l( yellow( 'light_20' ) )
         &.name
@@ -39,12 +38,13 @@ style
             &.hex,
             &.named
                 apply_l( cyan() )
-        &.keyword
-            apply_l( cyan() )
-            fs( none )
-            &.important
-                apply_l( orange( 'light_10' ) )
-    &.url-value
+    &.keyword
+        apply_l( cyan() )
+        fs( none )
+        &.important
+            apply_l( orange( 'light_10' ) )
+    &.url-value, &.url, &.filepath
         apply_l( blue( 'light_10' ) )
     &.media-type
         apply_l( cyan() )
+        fs( none )
