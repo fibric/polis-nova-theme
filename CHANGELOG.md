@@ -8,7 +8,13 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 
 -----
 
-## 10/28/20 v0.4.5
+## 11/10/20 v0.4.6
+
+### Syntax
+
+* Fix selection text using the same color as markup code blocks
+
+## v0.4.5
 
 ### Syntax
 
