@@ -20,10 +20,12 @@ markup
             apply_l( orange( 'light_10' ) )
     &.inline
         &.code
-            apply_cl( bgblack( 'light_10' ), gray( 'light_60' ) )
+            apply_cl( bgblack( 'light_70', .1 ), gray( 'light_60' ) )
     &.block
         &.code
-            apply_cl( bgblack( 'light_10' ), gray( 'light_60' ) )
+            apply_cl( bgblack( 'light_70', .1 ), gray( 'light_60' ) )
+            &.plain
+                apply_c( none )
         &.quote
             apply_l( cyan() )
     &.link, &.link-inline
