@@ -7,8 +7,13 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 </div>
 
 -----
+## 11/15/20 v0.4.7
 
-## 11/10/20 v0.4.6
+### Syntax
+
++ Add Typescript
+
+## v0.4.6
 
 ### Syntax
 

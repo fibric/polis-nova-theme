@@ -1,4 +1,7 @@
 {
+  "apexskier.eslint.config.fixOnSave" : "Disable",
+  "editor.default_syntax" : "plain-text",
+  "htmlvalidator.enabled" : false,
   "index.use_scm_ignored_files" : true,
   "workspace.art_style" : 0,
   "workspace.color" : 11,
