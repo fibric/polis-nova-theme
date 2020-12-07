@@ -7,7 +7,14 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 </div>
 
 -----
-## 11/15/20 v0.4.7
+## 12/07/20 v0.4.8
+
+### Syntax
+
+* Fix comma in `defstruct` is not orange
+* Fix module name is not green
+
+## v0.4.7
 
 ### Syntax
 
