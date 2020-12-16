@@ -7,5 +7,6 @@
     "categories": ["themes"],
     "repository": "https://gitlab.com/fibric/polis-nova-theme",
     "license": "MIT",
-    "bugs": "https://gitlab.com/fibric/polis-nova-theme/-/issues"
+    "bugs": "https://gitlab.com/fibric/polis-nova-theme/-/issues",
+    "funding": "https://paypal.me/fibric"
 }
