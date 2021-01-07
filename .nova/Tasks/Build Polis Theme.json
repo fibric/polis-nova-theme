@@ -2,7 +2,7 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\n\nif [[ \"$1\" =~ \\>[[:space:]]+(.*)$ ]]; then\n\tyarn stylus --disable-cache .\/Polis\/index.styl -o \"${BASH_REMATCH[1]}\"\nelse\n\techo \"ERROR: Arguments have changed! Check if the variables in the 'Arguments' tab are correct.\"\n\techo \"Excted the compile target value at position 1 in the 'Arguments' tab.\"\n\techo \"The format must be like this 'compile_target > path\/to\/file'\"\nfi\n"
+      "script" : "#!\/bin\/sh\n\nif [[ \"$1\" =~ \\>[[:space:]]+(.*)$ ]]; then\n\tyarn stylus --disable-cache .\/src\/Polis\/index.styl -o \"${BASH_REMATCH[1]}\"\nelse\n\techo \"ERROR: Arguments have changed! Check if the variables in the 'Arguments' tab are correct.\"\n\techo \"Excted the compile target value at position 1 in the 'Arguments' tab.\"\n\techo \"The format must be like this 'compile_target > path\/to\/file'\"\nfi\n"
     },
     "clean" : {
       "enabled" : true,
