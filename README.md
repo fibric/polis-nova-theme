@@ -19,7 +19,8 @@ A color scheme that is easy on the eyes by day and night.
 <p style="margin: -1em auto 0">
 Unlike other color schemes, the color red is not used for syntax element highlighting. Instead, red is only used to represent syntax errors, invalid code, and linting errors.
 </p>
-<p style="margin: 0 auto 0">
+<p style="margin: -1em auto 0">
+
 *Look out! Until the final version 1.0, red is also used for identifying syntax elements that are not yet stylized.* **Report red syntax elements!**
 </p>
 
