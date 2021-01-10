@@ -5,7 +5,6 @@
   "author": "Denny Trebbin <denny.trebbin@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "stylint": "^2.0.0",
     "stylus": "^0.54.8"
   }
 }
