@@ -8,5 +8,6 @@
     "repository": "https://gitlab.com/fibric/polis-nova-theme",
     "license": "MIT",
     "bugs": "https://gitlab.com/fibric/polis-nova-theme/-/issues",
-    "funding": "https://paypal.me/fibric"
+    "funding": "https://paypal.me/fibric",
+    "min_runtime": "3.1"
 }
