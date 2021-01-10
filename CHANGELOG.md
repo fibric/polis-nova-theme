@@ -7,6 +7,17 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 </div>
 
 -----
+## 10/01/21 [v0.5.0](https://gitlab.com/fibric/polis-nova-theme/-/milestones/5)
+
+### Syntax
+
++ Add Sass
++ Add Haml
+
+### Meta
+
+* Refined Polis logo
+
 ## 12/07/20 v0.4.8
 
 ### Syntax
