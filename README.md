@@ -36,7 +36,7 @@ The base colors, the window colors, and the text color are the only manually sel
 This color scheme has been carefully prepared so that even the terminal provides eye-friendly colors.
 </p>
 <p style="margin: 0 auto 0">
-To do so, select `Preferences -> Terminal`. In the tab `[Theme]`, select `[Theme]: Custom`. It is best to select "Polis" under `[Apply Theme]` too.
+To do so, select <code>Preferences -> Terminal</code>. In the tab <code>[Theme]</code>, select <code>[Theme]: Custom</code>. It is best to select "Polis" under <code>[Apply Theme]</code> too.
 </p>
 
 -----
