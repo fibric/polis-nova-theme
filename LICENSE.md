@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 Denny 'fibric' Trebbin
+Copyright (c) 2020-2021 Denny 'fibric' Trebbin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
