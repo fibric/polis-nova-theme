@@ -1,0 +1,16 @@
+/* Lua */
+lua
+    &.comma
+        apply_l( orange() )
+    &.identifier
+        apply_l( green( 'light_20' ) )
+        &.argument.name
+            apply_l( cyan( 'light_10' ) )
+        &.name
+            apply_l( magenta( 'light_10' ) )
+        &.function
+            apply_l( magenta( 'light_30' ) )
+            &.display-name
+                apply_l( magenta( 'light_20' ) )
+        &.property
+            apply_l( blue( 'light_10' ) )
