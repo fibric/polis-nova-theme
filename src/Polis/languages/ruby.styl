@@ -1,6 +1,29 @@
-/* RUBY */
+/* Ruby */
 ruby
+    apply_l( orange() )
     &.identifier
-        apply_l(
-            magenta( 'light_10' )
-        )
+        apply_l( magenta( 'light_10' ) )
+        &.name, &.method
+            apply_l( magenta( 'light_20' ) )
+        &.module.submodule
+            apply_l( blue( 'light_30' ) )
+        &.class, &.constant
+            apply_l( green( 'light_20' ) )
+        &.property
+            apply_l( blue( 'light_20' ) )
+        &.core.method
+            apply_l( orange( 'light_10' ) )
+        &.argument.name
+            apply_l( cyan( 'light_20' ) )
+        &.variable.instance
+            apply_l( orange( 'light_20' ) )
+    &.string
+        apply_l( yellow( 'light_20' ) )
+        &.double-quoted.delimiter, &.single-quoted.delimiter
+            apply_l( orange() )
+    &.comment
+        apply_l( gray( .9 ) )
+    &.value.symbol
+        apply_l( cyan( 'light_10' ) )
+    &.keyword
+        apply_l( organge( 'light_10' ) )
