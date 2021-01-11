@@ -1,9 +1,11 @@
 /* Perl */
 perl
     &.block
-        apply_l( orange( 'light_20') )
+        apply_l( orange() )
     &.identifier
-        apply_l( white( 'dark_10' ) )
+        apply_l( green( 'light_30', .9 ) )
+        &.property
+            apply_l( blue( 'light_20', .9 ) )
     &.keyword
         &.function
-            apply_l( magenta( 'light_20' ) )
+            apply_l( orange( 'light_20' ) )
