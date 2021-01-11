@@ -1,0 +1,17 @@
+/* Python */
+python
+    &.identifier
+        apply_l( blue( 'light_20', .9 ) )
+        &.class.name
+            apply_l( green( 'light_10' ) )
+        &.decorator.name
+            apply_l( yellow( 'light_30', .9 ) )
+        &.name,
+        &.function.name
+            apply_l( magenta( 'light_20' ) )
+        &.argument.name
+            apply_l( blue( 'light_20', .9 ) )
+    &.string
+        apply_l( yellow( 'light_20') )
+    &.value.tuple
+        apply_l( green( 'light_30', .9 ) )
