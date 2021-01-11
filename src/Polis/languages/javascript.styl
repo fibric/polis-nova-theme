@@ -1,0 +1,22 @@
+/* JavaScript */
+javascript
+    &.block
+        apply_l( orange() )
+    &.comment
+        apply_l( gray(), .9 )
+    &.identifier
+        apply_l( green( 'light_30' ) )
+        &.method
+            apply_l( magenta( 'light_20' ) )
+        &.function, &.name
+            apply_l( magenta( 'light_10' ) )
+        &.property
+            apply_l( blue( 'light_10' ) )
+        &.name
+            apply_l( magenta( 'light_10' ) )
+        &.core.global
+            apply_l( blue( 'light_20' ) )
+    &.definition
+        &.function
+            apply_l( magenta( 'light_30' ) )
+
