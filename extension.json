@@ -1,13 +1,15 @@
 {
-    "identifier": "fibric.polis",
-    "name": "Polis",
-    "organization": "fibric",
-    "description": "A color scheme that is easy on the eyes by day and night",
-    "version": "0.5.1",
-    "categories": ["themes"],
-    "repository": "https://gitlab.com/fibric/polis-nova-theme",
-    "license": "MIT",
-    "bugs": "https://gitlab.com/fibric/polis-nova-theme/-/issues",
-    "funding": "https://paypal.me/fibric",
-    "min_runtime": "3.1"
+  "identifier": "fibric.polis",
+  "name": "Polis",
+  "description": "A color scheme that is easy on the eyes by day and night",
+  "organization": "fibric",
+  "version": "0.5.2",
+  "categories": [
+    "themes"
+  ],
+  "repository": "https://gitlab.com/fibric/polis-nova-theme",
+  "license": "MIT",
+  "bugs": "https://gitlab.com/fibric/polis-nova-theme/-/issues",
+  "funding": "https://paypal.me/fibric",
+  "min_runtime": "4.0"
 }

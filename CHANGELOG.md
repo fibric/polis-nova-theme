@@ -7,7 +7,17 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 </div>
 
 -----
-## 11/01/21 [v0.5.1](https://gitlab.com/fibric/polis-nova-theme/-/milestones/5)
+
+## 13/01/21 [v0.5.2](https://gitlab.com/fibric/polis-nova-theme/-/milestones/5)
+
+### Syntax
+
+* Adjust JavaScript to Nova 4.0
+* Adjust JSX to Nova 4.0
+* Adjust Lua to Nova 4.0
+* Adjust TSX to Nova 4.0
+
+## [v0.5.1](https://gitlab.com/fibric/polis-nova-theme/-/milestones/5)
 
 ### Syntax
 
