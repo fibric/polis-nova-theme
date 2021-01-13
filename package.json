@@ -1,9 +1,13 @@
 {
   "name": "Polis",
-  "version": "0.5.1",
+  "description": "A color scheme that is easy on the eyes by day and night",
+  "version": "0.5.2",
   "repository": "git@gitlab.com:fibric/polis-nova-theme.git",
   "author": "Denny Trebbin <denny.trebbin@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "stylus --disable-cache ./src/polis/index.styl -o build/polis.css"
+  },
   "devDependencies": {
     "stylus": "^0.54.8"
   }

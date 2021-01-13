@@ -1,0 +1,31 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "path" : "tasks\/build_extension.sh"
+    },
+    "clean" : {
+      "enabled" : true,
+      "path" : "tasks\/clean_extension.sh"
+    },
+    "run" : {
+      "enabled" : true,
+      "path" : "tasks\/package_extension.sh"
+    }
+  },
+  "arguments" : [
+    "package_target: ${WorkspaceName}",
+    "project_path: ${WorkspaceFolder}",
+    "fixme_cp_doesnt_create_subfolders: ${WorkspaceName}\/Themes",
+    "wipe_folder: build",
+    "CHANGELOG.md",
+    "extension.json",
+    "LICENSE.md",
+    "README.md",
+    "Images\/extension\/extension.png > extension.png",
+    "Images\/extension\/extension@2x.png > extension@2x.png",
+    "build\/polis.css > Themes\/Polis.css"
+  ],
+  "identifier" : "E168CF9C-B768-4FBE-A953-693F3259C45C",
+  "openLogOnRun" : "fail"
+}
