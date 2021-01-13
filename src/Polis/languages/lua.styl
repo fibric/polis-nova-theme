@@ -9,8 +9,12 @@ lua
         &.name
             apply_l( magenta( 'light_10' ) )
         &.function
-            apply_l( magenta( 'light_30' ) )
+            apply_l( magenta( 'light_30', .9 ) )
             &.display-name
                 apply_l( magenta( 'light_20' ) )
         &.property
             apply_l( blue( 'light_10' ) )
+    &.string
+        &.long-quoted
+            &.delimiter
+                apply_l( orange() )
