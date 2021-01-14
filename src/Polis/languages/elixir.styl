@@ -1,16 +1,38 @@
 /* Elixir */
 elixir
-    &.identifier
-        apply_l( cyan( 'light_10' ) )
-        &.constant
-            apply_l( green( 'light_20' ) )
-        &.function
-            apply_l( magenta( 'light_10' ) )
-        &.name
-            apply_l( green( 'light_10' ) )
+  apply_l( orange() )
+  &.operator, &.comma
+    apply_l( orange() )
+  &.keyword
+    apply_l( orange( 'light_10' ) )
+  &.comment
+    apply_l( gray( .9 ) )
+  &.string
+    apply_l( yellow( 'light_10' ) )
+    &.double-quoted,
+    &.block
+      apply_l( yellow( 'light_20' ) )
+      &.delimiter
+        apply_l( orange() )
+  &.identifier
+    apply_l( cyan( 'light_10' ) )
+    &.constant
+      apply_l( green( 'light_20' ) )
+    &.function
+      apply_l( magenta( 'light_10' ) )
+    &.name
+      apply_l( green( 'light_20' ) )
     &.import
-        apply_l( green( 'light_30' ) )
+      apply_l( green( 'light_30' ) )
     &.value
-            apply_l( cyan( 'dark_30' ) )
-        &.list
-            apply_l( orange() )
+      apply_l( cyan( 'light_10' ) )
+      &.tuple
+        apply_l( cyan( 'dark_30' ) )
+      &.list
+        apply_l( orange() )
+    &.module
+      &.submodule
+        apply_l( blue( 'light_10', .9 ) )
+  &.definition
+    &.function
+      apply_l( magenta( 'light_20' ) )
