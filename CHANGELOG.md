@@ -8,7 +8,16 @@ Carefully crafted adjustments to enhance the color scheme for daily and nightly 
 
 -----
 
-## 13/01/21 [v0.5.2](https://gitlab.com/fibric/polis-nova-theme/-/milestones/5)
+nova://extension/?id=rustypatchedsoftware.Elixir&name=Elixir
+
+## 13/01/21 [v0.5.3](https://gitlab.com/fibric/polis-nova-theme/-/milestones/5)
+
+### Syntax
+
+* Improve [Elixir](nova://extension/?id=rustypatchedsoftware.Elixir&name=Elixir
+) support
+
+## [v0.5.2](https://gitlab.com/fibric/polis-nova-theme/-/milestones/5)
 
 ### Syntax
 

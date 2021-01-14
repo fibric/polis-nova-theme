@@ -1,7 +1,7 @@
 {
   "name": "Polis",
   "description": "A color scheme that is easy on the eyes by day and night",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "repository": "git@gitlab.com:fibric/polis-nova-theme.git",
   "author": "Denny Trebbin <denny.trebbin@gmail.com>",
   "license": "MIT",
